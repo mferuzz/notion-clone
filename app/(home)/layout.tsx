@@ -6,7 +6,7 @@ const HomeLayout = ({ children }: ChildProps) => {
   return (
     <div className="h-full">
       <Navbar />
-      <main>{children}</main>
+      <main className="h-full pt-40">{children}</main>
     </div>
   );
 };
